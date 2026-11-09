@@ -1,0 +1,30 @@
+.buttoncard {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* max-width: fit-content; */
+  height: 50vh;
+  margin: 5px;
+  /* padding: 5px; */
+  align-content: space-between;
+}
+
+.buttonlabel {
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+  color: black;
+}

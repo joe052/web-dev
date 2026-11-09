@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>TESTING MY NEW SITE!!</h2>
+
+    <div class="buttoncard">
+      <h3 class="buttonlabel">My Test Button</h3>
+      <button onclick="clicker()">Click Me!</button>
+    </div>
+
+    <script>
+      function clicker() {
+        const label = document.querySelector(".buttonlabel");
+        label.textContent="You just clicked me!"
+        // alert("Stop Clicking Me!");
+      }
+    </script>
+  </body>
+</html>
