@@ -26,6 +26,8 @@ export default function TodoList() {
         {/* Passing props down to child components */}
         <TodoItem title="Learn JSX & Components" isCompleted={true} />
         <TodoItem title="Understand Props" isCompleted={false} />
+        <TodoItem title="Visit the mall" isCompleted={false} />
+        <TodoItem title="Learn Javascript" isCompleted={true} />
       </ul>
     </main>
   );
