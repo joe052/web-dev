@@ -2,6 +2,8 @@ import React from "react";
 
 /**CHILD COMPONENT */
 function TodoItem({ title, isCompleted }) {
+
+  /**TEMPLATE */
   return (
     <li
       style={{
@@ -17,6 +19,8 @@ function TodoItem({ title, isCompleted }) {
 
 /**PARENT COMPONENT */
 export default function App() {
+
+  /**TEMPLATE */
   return (
     <main>
       <h1>My To-Do List</h1>
